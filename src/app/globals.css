@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  width: 98dvw;
+  height: 98dvh;
+  background: radial-gradient(circle at top, hsl(240, 98%, 34%) 0%, hsl(240, 96%, 21%), hsl(240, 96%, 11%) 80%)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+h6 {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 42px;
+  text-indent: 2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+main {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
