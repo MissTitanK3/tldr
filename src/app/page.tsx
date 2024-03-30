@@ -20,9 +20,10 @@ export default function Home() {
 
         <h2>Her Arsenal</h2>
         <p>
-          In the vast kingdom of technology, Tianna&apos;s arsenal is legendary. With HTML/CSS as her shield, JavaScript
-          her sword, and a quiver filled with React, Node.js, and Python, she faces down challenges with the ease of a
-          hero destined for greatness. MongoDB and Supabase are her loyal steeds, carrying her swiftly towards victory.
+          In the vast kingdom of technology, Tianna&apos;s arsenal is legendary. With HTML/CSS as her shield, TypeScript
+          her sword, and a quiver filled with React, Node.js, NextJs and Python, she faces down challenges with the ease
+          of a hero destined for greatness. MongoDB and Supabase are her loyal steeds, carrying her swiftly towards
+          victory.
         </p>
 
         <h2>The Heart of a Mentor</h2>
